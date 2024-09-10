@@ -50,7 +50,7 @@ app.get('/SignPage',(req, res) => {
 app.get('/APIPage',(req, res) => {
     res.sendFile(path.join(__dirname, '/views/View_information.html'));
 })
-
+//admin
 app.get('/APIPage_Admin',(req, res) => {
     res.sendFile(path.join(__dirname, '/view_admin/View_information_admin.html'));
 })
